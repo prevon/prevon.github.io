@@ -1,0 +1,103 @@
+
+.encabezado
+{
+	margin-bottom: 25px;
+	background-color: #588c8f;
+	border: solid 10px #edf4f5;
+	border-radius: 20px;
+
+}
+.contenedor
+{
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #edf4f5;
+	border-radius: 20px;
+	width: 600px;
+	height: 300px;
+}
+h2
+{
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+	width: 250px;
+	height: 50px;
+	background-color: #588c8f;
+	color: white;
+}
+body
+{
+	background-color: #96bec0;
+	background-image: img/fondo.jpg;
+}
+/*alinear logo*/
+img
+{
+	display: block;
+	margin: auto;
+}
+h2
+{
+	display: block;
+	text-align: center;
+}
+input
+{
+	background-color: #96bec0;
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+}
+.cuadro
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 500px;
+	height: 25px;
+}
+.cuadro:focus
+{
+	background-color: #036169;
+	border: 5px double #96bec0;
+	border-radius: 5px;
+}
+.boton
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 250px;
+	height: 50px;
+	background-color: #588c8f;
+	color: white;
+}
+.tooltip
+{
+	border: 10px 10px;
+	color: red;
+	background-color: yellow;
+	visibility: hidden;
+	text-align: center;
+}
+.ver:hover+.tooltip
+{
+	visibility: visible;
+}
+.principal
+{
+	display: block;
+	margin: auto;
+	border: solid 1px white;
+	border-radius: 20px;
+	box-shadow: 10px 10px grey;
+	width: 600px;
+	height: 300px;
+	background-color: #edf4f5;
+}
+.olvidar
+{
+	margin-left: 335px;
+	margin-bottom: 10px;
+}
