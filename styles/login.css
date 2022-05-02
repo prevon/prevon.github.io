@@ -76,6 +76,8 @@ input
 }
 .boton:hover{
 	transform: scale(1.2);
+	letter-spacing: 3px;
+	color: aquamarine;
 }
 .tooltip
 {
@@ -84,6 +86,8 @@ input
 	background-color: yellow;
 	visibility: hidden;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
 .ver:hover+.tooltip
 {
