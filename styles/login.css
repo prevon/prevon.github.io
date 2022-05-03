@@ -110,3 +110,11 @@ input
 	margin-left: 335px;
 	margin-bottom: 10px;
 }
+p
+{
+	display: block;
+	text-align: center;
+	margin: auto;
+	color: tomato;
+	text-transform: uppercase;
+}
