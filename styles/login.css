@@ -73,6 +73,7 @@ input
 	background-color: #588c8f;
 	color: white;
 	transition: 0.3s;
+	border: 2px solid #D4C31C;
 }
 .boton:hover{
 	transform: scale(1.2);
